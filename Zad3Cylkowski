@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <title>Cylkowski zad.3</title>
+</head>
+
+<body>
+    
+    <h1>Sposoby podłączania styli do strony (skrócone zestawienie).</h1>
+    
+    <h2>1)Zewnętrzny arkusz stylów.</h2>
+    
+    <textarea rows="6" cols="110"><head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+    </textarea>
+    
+    <h2>
+        2)Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli
+        dopisanie arkusza do wybranego bloku treści strony.
+    </h2>
+    
+    <textarea rows="1" cols="100"><selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor></textarea>
+    
+    <h2>3)Wewnętrzny arkusz stylów.</h2>
+    
+     <textarea rows="6" cols="100"><head>
+    <style type="text/css">
+        selektor1 { cecha: wartość; cecha2: wartość2... }
+        selektor2 { cecha: wartość; cecha2: wartość2... }
+    </style>
+</head></textarea>
+    <h2>4)Alternatywny arkusz stylów.</h2>
+    
+    <textarea rows="5" cols="100"><head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</textarea>
+    
+    <h2>5)Import arkusza stylów.</h2>
+    
+     <textarea rows="5" cols="100"><style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea>
+</body>
+
+</html>
