@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" type="text/css" href="cylkowski2.css">
+</head>
+
+<body>
+    
+    <table align="center">
+        <tr>
+            <td colspan="4">
+                <h1>Cechy modyfikowania formatowania w:</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>w HTML</h2>
+            </td>
+            <td>
+                <h2>w CSS</h2>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span> zmienianie wyglądu elementów strony jest</span>
+                <span>bardzo cieżkie(atrybuty,znaczniki które</span>
+                <span>za to odpowiadają nie sa w tym samym </span>
+                <span>miejscu kodu).</span>
+            </td>
+            <td>
+                <span> rozdzielenie <b>struktury i prezentacji</b></span>
+                <span>dokumentów czyli: wszystkie polecenia </span>
+                <span>dotyczące formatowania można umieścić w</span>
+                <span>jednym miejscu (tzw. arkuszu) i powiązać je</span>
+                <span>z konkretnymi elementami, wstawionymi za</span>
+                <span>pomocą czystego (X)HTML. Taki sposób</span> 
+                <span>sprawia, że modyfikacja wyglądu stron może</span>
+                <span>przebiegać dużo sprawniej.</span>
+            </td>
+        </tr>
+    </table>
+    
+</body></html>
