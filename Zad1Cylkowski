@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <link rel="Arial" type="text/css" href="cylkowski.css">
+</head>
+
+<body>
+    <h1>Kaskadowe Arkusze Stylów CSS</h1>
+    <p>
+        <span><u>CSS</u> - <b>Kaskadowe Arkusze Stylów</b> (z ang. Cascading Style Sheets) jest to specjalny język</span> 
+        <span>stworzony w celu elastycznego zarządzania wygladem elementów</span>
+        <span>znajdujących się na stronach WWW.</span>
+    </p>
+</body>
+
+</html>
